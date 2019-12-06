@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Login</title>
+    <title><%= "Welcome "+user.name %></title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
@@ -19,7 +19,7 @@
     <div class="container">
             <nav class="navbar navbar-expand-lg sticky-top bg-primary">
                     <div class="container">
-                      <a class="navbar-brand" href="#"><%= user.name %></a>
+                      <a class="navbar-brand" href="#"><%= "Welcome "+user.name %></a>
                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="sr-only">Toggle navigation</span>
                       <span class="navbar-toggler-icon"></span>
@@ -53,6 +53,7 @@
                       </div>
                     </div>
                   </nav>
+                  
         <div class="row mt-5">
             <div class="col-4"></div>
             <div class="col-4">
